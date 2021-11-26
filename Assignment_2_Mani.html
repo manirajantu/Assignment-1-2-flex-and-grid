@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column2 {
+  flex: 25%;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .column2 {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row2 {
+    flex-direction: column;
+  }
+}
+
+.column33{
+  height: 50%;
+}
+
+.container2 {
+background-color: black;
+color: rgb(255, 255, 255);
+text-align: center;
+}
+
+.container3 {
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+.container4 {
+  width: 100%;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+.con6font1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.con6font2 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.con6font3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+ text-align: center;
+  width: 100%;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.flex-container > div {
+  width: 250px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container2 ">  
+
+    <div>
+        <br><br>
+        <p class="con6font1"> What we do </p>
+        <p class="con6font2"> Company Certifications </p>
+        <p class="con6font3"> Our company offers a variety of services to meet your project’s needs, to take you from collaboration meetings all the way to ribbon-cutting and beyond. We believe that every project is unique, and can customize our approach to fit your particular project. </p>
+        <br><br>
+    </div>
+
+    <div class="container2">
+
+        <div class="row">
+
+            <div class="column">
+                <dir><img src="RestaurantFacilities.jpg"></dir>
+                <h2>Healthcare Building</h2>
+                <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+    
+            <div class="column">
+              <dir><img src="RestaurantFacilities.jpg"></dir>
+                <h2>Education Building</h2>
+                <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+    
+            <div class="column">
+              <dir><img src="RestaurantFacilities.jpg"></dir>
+                <h2>Government Building</h2>
+                <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+
+        <div class="row2">
+
+            <div class="column2">
+              <dir><img src="RestaurantFacilities.jpg"></dir>
+                <h2>Commercial Building</h2>
+                <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+    
+            <div class="column2">
+              <dir><img src="RestaurantFacilities.jpg"></dir>
+                <h2>Residential Building</h2>
+                <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+    
+        <div class="column2">
+          <dir><img src="RestaurantFacilities.jpg"></dir>
+            <h2>Restaurant Facilities</h2>
+            <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+
+    </div>
+
+    <div class="container3">
+
+      <div class="row">
+
+        <div class="column">
+            <dir><img src="GovernmentBuilding.jpg"></dir>
+            <h2>Healthcare Building</h2>
+            <p>Tiling is an effective way to add elegance & style to any bath or kitchen Yellow Hats Remodeling Team specializes in tile installation and works directly with each.</p>
+        </div>
+
+        <div class="column">
+          <dir><img src="Tractor.jpg"></dir>
+        </div>
+
+        <div class="column">
+
+          <div class="column33">
+            <dir><img src="GovernmentBuilding.jpg"></dir>
+            <h2>Education Building</h2>
+          </div>
+
+          <div class="column33">
+            <dir><img src="GovernmentBuilding.jpg"></dir>
+            <h2>Government Building</h2>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="container2">
+        <div>
+            <h4>Portpholio</h4>
+            <h2>Recent Projects</h2>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div><img src="pic1.jpg"></div>
+        <div><img src="pic2.jpg"></div>
+        <div><img src="pic3.jpg"></div>
+        <div><img src="pic4.jpg"></div>
+        <div><img src="pic5.jpg"></div>
+        <div><img src="pic6.jpg"></div>
+        <div><img src="pic7.jpg"></div>
+        <div><img src="pic8.jpg"></div>
+    </div>
+
+</div>
+</body>
+</html>
